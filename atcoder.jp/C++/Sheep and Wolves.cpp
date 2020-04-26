@@ -1,3 +1,7 @@
+//There are S sheep and W wolves. 
+//If the number of wolves is greater than or equal to that of sheep, the wolves will attack the sheep. 
+//If the wolves will attack the sheep, print unsafe; otherwise, print safe.
+
 #include <iostream>
  
 using namespace std;
