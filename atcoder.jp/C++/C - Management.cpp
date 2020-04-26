@@ -5,6 +5,8 @@
 // You are given the information that the immediate boss of the member numbered i is the member numbered A i. 
 // For each member, find how many immediate subordinates it has.
 
+// https://atcoder.jp/contests/abc163/tasks/abc163_c
+
 #include <iostream>
 #include <cmath>
 
