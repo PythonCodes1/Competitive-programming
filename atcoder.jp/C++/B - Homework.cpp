@@ -4,6 +4,8 @@
 // What is the maximum number of days Takahashi can hang out during the vacation if he finishes all the assignments during this vacation?
 //If Takahashi cannot finish all the assignments during the vacation, print -1 instead.
 
+// https://atcoder.jp/contests/abc163/tasks/abc163_b
+
 #include <iostream>
 #include <cmath>
 
