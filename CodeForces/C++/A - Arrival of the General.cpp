@@ -44,7 +44,6 @@ int main() {
 	    cin>>x;
         if(x>maxvalue){
             maxindex=i;
-        }else{
             maxvalue=x;
         }
         if(x<=minvalue){
