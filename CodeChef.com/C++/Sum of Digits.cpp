@@ -24,8 +24,10 @@ main(){
    		scanf("%d",&n);
    		
    		while(n!=0){
-	   		sum+=n%10; n/=10;
+	   		answer+=n%10; n/=10;
+		// To move around each decimal place
    		}
-    	printf("%d\n",sum);
+    	printf("%d\n",answer);
+	// Print the sum
     }
 }
