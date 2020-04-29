@@ -21,27 +21,22 @@ The answer will be considered correct if the absolute or relative error does not
 https://codeforces.com/problemset/problem/200/B
 */
 
-#include <iostream>
+#include<bits/stdc++.h>
 using namespace std;
 
-int a[105];
-
-int main(void){
-    int n; 
-    cin>>n;
-    
-    double fr = 0;
-    double per = (double)100/n;
-    int m = n, temp;
-    
-    while(m--){
-        cin>>temp;
-        fr+= double(per*temp/100);
+int main()
+{
+    int n,i;
+    double sum=0.0;
+    scanf("%d",&n);
+    int a[n];
+    for(i=0;i<n;i++){
+        scanf("%d",&a[i]);
     }
-    
-    cout.precision(12);
-    cout<<fixed;
-    cout<< fr <<endl;
-    
+    for(i=0;i<n;i++){
+        sum+=a[i];
+    }
+    sum=sum/n;
+    printf("%.12lf\n",sum);
     return 0;
 }
