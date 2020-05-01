@@ -1,5 +1,5 @@
 /*
-«One dragon. Two dragon. Three dragon», — the princess was counting. She had trouble falling asleep, and 
+One dragon. Two dragon. Three dragon», — the princess was counting. She had trouble falling asleep, and 
 she got bored of counting lambs when she was nine.
 
 However, just counting dragons was boring as well, so she entertained herself at best she could. Tonight she
