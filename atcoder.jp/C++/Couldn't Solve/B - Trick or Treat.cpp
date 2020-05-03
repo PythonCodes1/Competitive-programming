@@ -48,3 +48,45 @@ int main() {
 	solve();
 	return 0;
 }
+
+
+/*
+Sample Input 1
+
+There are 3 snooks and 2 types of snacks
+The 1 and 3 together add one snack and the other 3 adds another snack
+
+3 2
+2 
+1 3
+1
+3
+Sample Output 1 
+1 
+
+Snuke 1 has Snack 1.Snuke 2 has no snacks.Snuke 3 has Snack 1 and 2.
+Thus, there will be one victim: Snuke 2.
+*/
+
+
+// Another answer
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+    int n,k;
+    cin>>n>>k;
+    int d[k];
+    int i,a;
+    set<int >s;
+    int j;
+    for(i=0;i<k;++i){
+           cin>>d[i];
+           for(j=0;j<d[i];++j){
+                 cin>>a;
+                 s.insert(a);
+           }
+     }
+     cout<<n-s.size();
+     return 0;    
+}
