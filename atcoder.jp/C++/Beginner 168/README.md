@@ -31,3 +31,5 @@ Since it is dangerous in the cave, our objective is to satisfy the condition bel
 If you start in that room and repeatedly move to the room indicated by the signpost in the room you are in, you
 will reach Room 1 after traversing the minimum number of passages possible. Determine whether there is a way to
 place signposts satisfying our objective, and print one such way if it exists.
+
+Link to the competition: https://atcoder.jp/contests/abc168
