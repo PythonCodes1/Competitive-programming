@@ -11,3 +11,19 @@ int main(){
     cout << "hon" << endl;
   }
 }
+
+
+#include <iostream>
+using namespace std;
+int main(){
+    int a;
+    cin >> a;
+    int n=a%10;
+    if(n==2 or n==4 or n==5 or n==7 or n==9) 
+        cout << "hon" << endl;
+    else if(n==3) 
+        cout << "bon" << endl;
+    else 
+        cout << "pon" << endl;
+    return 0;
+}
