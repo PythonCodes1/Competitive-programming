@@ -9,10 +9,11 @@ https://www.codechef.com/problems/TSORT
 using namespace std;
 
 int main() {
-	int t;
-	cin >> t;
-	int A[t];
-	int x = 0;
+    int t;
+    cin >> t;
+    int A[t];
+    int x = 0;
+    
     for(int i = 0; i < t; i++){
         cin >> x;
         A[i] = x;
@@ -20,6 +21,7 @@ int main() {
     sort(A,A+t);
     for(int i = 0; i < t; i++){
         cout << A[i] << endl;
+        
     }
-	return 0;
+    return 0;
 }
