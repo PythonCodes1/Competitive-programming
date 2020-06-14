@@ -1,3 +1,5 @@
+// Add the first and last digit of a number
+
 #include <iostream>
 #include <bits/stdc++.h>
 using namespace std;
