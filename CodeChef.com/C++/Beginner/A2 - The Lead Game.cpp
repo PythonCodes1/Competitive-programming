@@ -24,11 +24,11 @@ int main(){
 	        if(currentLead > lea){
 	            lea = currentLead;
 	            w = 1;
-	        }
+		}
 	    }else{
 	        currentLead = p2Sum - p1Sum;
 	        
-	        // If the current lead is better htan the lead, update
+	        // If the current lead is better than the lead, update
 	        if(currentLead > lea){
 	            lea = currentLead;
 	            w = 2;
