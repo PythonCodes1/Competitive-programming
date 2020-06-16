@@ -8,7 +8,7 @@
   <li>Find Remainder: https://www.codechef.com/problems/FLOW002
   <li>Small factorials: https://www.codechef.com/problems/FCTRL2
   <li>Turbo Sort: https://www.codechef.com/problems/TSORT
-  <li>First and Lasat Digit: https://www.codechef.com/problems/FLOW004
+  <li>First and Last Digit: https://www.codechef.com/problems/FLOW004
   <li>Lucky Four: https://www.codechef.com/problems/LUCKFOUR
   <li>Reverse The Number: https://www.codechef.com/problems/FLOW007
   <li>The Lead Game: https://www.codechef.com/problems/TLG
